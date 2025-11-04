@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neutral Forces Pemesanan Tiket Kereta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href=" https://fonts.googleapis.com">
+    <link rel="preconnect" href=" https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Neutral Forces Pemesanan Tiket Kereta</h1>
+    </header>
+
+    <Main class="container">
+        <form id="tiket-form" class="card">
+            <fieldset>
+                <legend>Formulir Pemesanan</legend>
+
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" placeholder="Masukkan ama lengkap" required>
+
+                <label for="asal">Stasiun Asal:</label>
+                <input type="text" id="asal" placeholder="Contah: Stasiun Gambir" required>
+
+                <label for="tujuan">Stasiun Tujuan:</label>
+                <input type="text" id="tujuan" placeholder="Contah: Stasiun Surabaya Gubeng" required>
+                
+                <label for="tanggal">Tanggal Keberangkatan:</label>
+                <input type="date" id="tanggal" required>
+            </fieldset>
+        </form>
+
+        <section id="preview" class="card">
+            <h2>Pratinjau Tiket</h2>
+            <article class="tiket">
+                <p><strong>Nama Penumpang:</strong> <span id="preview-nama">-</span></p>
+                <p><strong>Stasiun Asal:</strong> <span id="preview-asal">-</span></p>
+                <p><strong>Stasiun Tujuan:</strong> <span id="preview-tujuan">-</span></p>
+                <p><strong>Tanggal Keberangkatan:</strong> <span id="preview-tanggal">-</span></p>
+            </article>
+            <a href="#" class="button">Cetak Tiket</a>
+        </section>
+    </Main>
+    <footer class="footer">
+        <p>&copy; 2024 Neutral Forces Pemesanan Tiket Kereta. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
