@@ -7,7 +7,7 @@
 - **Semester:** 3
 
 ## Deskripsi Proyek
-Repositori ini berisi proyek Ujian Tengah Semester (UTS) saya untuk mata kuliah Desain Web. Proyek ini mendemonstrasikan pemahaman saya tentang konsep pengembangan web dan implementasi berbagai teknologi web.
+Repositori ini berisi proyek Ujian Tengah Semester (UTS) saya untuk mata kuliah Desain Web.
 
 ## Teknologi yang Digunakan
 - HTML5
